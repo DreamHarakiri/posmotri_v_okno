@@ -32,7 +32,7 @@ ol {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 
@@ -108,7 +108,7 @@ ol {
 
 .content__card-link {
   display: block;
-  margin: 0 2px;
+  padding: 2px;
 }
 
 .content__card-link:focus {
@@ -122,6 +122,10 @@ ol {
 
 .content__list-item:hover {
   text-decoration: underline;
+}
+
+.content__card-link_current {
+  background: #545050;
 }
 
 .content__list-item:active {
@@ -148,7 +152,7 @@ ol {
 
 .title {
   color: #fff;
-  font-family: Oswald, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -159,7 +163,7 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: Oswald, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -206,7 +210,7 @@ ol {
   appearance: none;
   color: rgba(255, 255, 255, 0.7);
 
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -266,19 +270,19 @@ fieldset {
   color: white;
 
   text-align: center;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
-button:active {
+.button:active {
   border: 1px solid #fff;
   background: #545050;
 }
 
-button:hover {
+.button:hover {
   text-decoration: underline;
 }
 
@@ -290,7 +294,7 @@ button:hover {
   width: 100%;
 }
 
-button:focus {
+.button:focus {
   outline: 1px solid white;
   outline-offset: 1px;
   line-height: normal;
@@ -318,7 +322,7 @@ button:focus {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -337,7 +341,7 @@ a.content__card-link {
 .content__video-card-title {
   margin-block-end: 6px;
 
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", Arial, sans-serif;
 
   font-weight: 700;
 
